@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영어 단어 시험 웹앱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>영어 단어 시험</h1>
+        <div class="quiz-container">
+            <div id="question-container">
+                <p id="definition">단어 뜻이 여기에 표시됩니다.</p>
+                <input type="text" id="answer" placeholder="정답을 입력하세요">
+            </div>
+            <button id="submit-button">제출하기</button>
+            <p id="result"></p>
+            <p id="score">점수: 0</p>
+        </div>
+    </div>
+    <div id="celebration" class="hidden">
+        🎉 축하합니다! 100점을 달성했습니다! 🎉
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
